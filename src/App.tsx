@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX } from "@fortawesome/free-solid-svg-icons";
 import MyNavbar from "./Components/MyNavbar";
 
-const initial = Array.from({ length: 0 }, (v, k) => k).map((k) => {
+const initial = Array.from({ length: 0 }, (_v, k) => k).map((k) => {
   const custom: QuoteType = {
     id: `id-${k}`,
     content: `Quote ${k}`,
